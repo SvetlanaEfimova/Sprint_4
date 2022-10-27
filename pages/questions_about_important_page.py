@@ -15,9 +15,10 @@ class QuestionsAboutImportant:
     _questions_eight = [By.XPATH, "//*[text() = 'Я жизу за МКАДом, привезёте?']"]
 
     def __init__(self, driver):
+        print(driver)
         self.driver = driver
 
-    def click_questions_one(self):  # клик по первому вопросу
+    def click_questions_one(self):
         self.driver.find_element(*self._questions_one).click()
 
     def click_questions_two(self):
