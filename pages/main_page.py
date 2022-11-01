@@ -3,7 +3,7 @@ from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.wait import WebDriverWait
 
 
-class QuestionsAboutImportant:
+class MainPageQuestions:
     _cookie = [By.XPATH, "//*[text() = 'да все привыкли']"]
     _questions_one = [By.XPATH, "//*[text() = 'Сколько это стоит? И как оплатить?']"]
     _questions_two = [By.XPATH, "//*[text() = 'Хочу сразу несколько самокатов! Так можно?']"]
@@ -43,7 +43,7 @@ class QuestionsAboutImportant:
         self.driver.find_element(*self._questions_eight).click()
 
 
-class AnswersOnQuestions:  # методы класса ожидают появление ответа и получают текст
+class MainPageAnswers:  # методы класса ожидают появление ответа и получают текст
     the_answer_to_the_first_question = [By.XPATH, "//*[@id='accordion__panel-0']/p"]
     the_answer_to_the_second_question = [By.XPATH, "//*[@id='accordion__panel-1']/p"]
     the_answer_to_the_third_question = [By.XPATH, "//*[@id='accordion__panel-2']/p"]

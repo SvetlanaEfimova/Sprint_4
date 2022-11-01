@@ -4,7 +4,7 @@ from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.wait import WebDriverWait
 
 
-class OrderFormInHeader:
+class OrderPage:
     _button_order_in_header = [By.XPATH, "//div[contains(@class, 'Header_Nav')]/button[text() = 'Заказать']"]
     _button_order_in_body = [By.XPATH, "//div[contains(@class, 'Home_FinishButton')]/button[text() = 'Заказать']"]
     _button_next = [By.XPATH, "//button[text() = 'Далее']"]
@@ -96,7 +96,7 @@ class OrderFormInHeader:
     def wait_for_load_the_order_has_been_placed(self):
         WebDriverWait(self.driver, 3).until(ec.element_to_be_clickable(self._the_order_has_been_placed))
 
-    def registration_with_the_first_data(self, name, lastname, address, metro, phone, date, period, color, comment):
+    def registration(self, name, lastname, address, metro, phone, date, period, color, comment):
         self.enter_a_name(name)
         self.enter_a_last_name(lastname)
         self.enter_the_address(address)

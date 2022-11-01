@@ -2621,3 +2621,109 @@ TimedPromise@chrome://remote/content/marionette/sync.js:221:10
 interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
 webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
 1666871792497	Marionette	INFO	Stopped listening on port 54542
+1667203139346	geckodriver	INFO	Listening on 127.0.0.1:57235
+1667203142387	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57236" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sefim\\AppData\\Local\\Temp\\rust_mozprofilerSDgo1"
+1667203143388	Marionette	INFO	Marionette enabled
+1667203143397	Marionette	INFO	Listening on port 57245
+Read port: 57245
+WebDriver BiDi listening on ws://127.0.0.1:57236
+1667203143555	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sefim\\AppData\\Local\\Temp\\rust_mozprofilerSDgo1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57236/devtools/browser/9a38273f-c40e-4b08-8be9-d3c25a324f48
+1667203148219	Marionette	INFO	Stopped listening on port 57245
+1667203148986	geckodriver	INFO	Listening on 127.0.0.1:57276
+1667203152018	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57277" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sefim\\AppData\\Local\\Temp\\rust_mozprofileRRTfq5"
+1667203152397	Marionette	INFO	Marionette enabled
+1667203152402	Marionette	INFO	Listening on port 57286
+Read port: 57286
+WebDriver BiDi listening on ws://127.0.0.1:57277
+1667203152516	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sefim\\AppData\\Local\\Temp\\rust_mozprofileRRTfq5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57277/devtools/browser/92e5ab08-6487-4811-9442-e5aa727b32d2
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.passport.yandex.ru."
+1667203157038	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1667203157336	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1667203158536	Marionette	INFO	Stopped listening on port 57286
+1667296036942	geckodriver	INFO	Listening on 127.0.0.1:57912
+1667296039993	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57913" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sefim\\AppData\\Local\\Temp\\rust_mozprofileqwhmdY"
+1667296040350	Marionette	INFO	Marionette enabled
+1667296040355	Marionette	INFO	Listening on port 57922
+WebDriver BiDi listening on ws://127.0.0.1:57913
+Read port: 57922
+1667296040636	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sefim\\AppData\\Local\\Temp\\rust_mozprofileqwhmdY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57913/devtools/browser/ead71c71-f38a-4894-a021-7c6d65f353ef
+1667296045773	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1667296047509	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1667296048537	Marionette	INFO	Stopped listening on port 57922
+1667296049173	geckodriver	INFO	Listening on 127.0.0.1:57955
+1667296052221	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57956" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sefim\\AppData\\Local\\Temp\\rust_mozprofileNykRgW"
+1667296052571	Marionette	INFO	Marionette enabled
+1667296052575	Marionette	INFO	Listening on port 57965
+WebDriver BiDi listening on ws://127.0.0.1:57956
+Read port: 57965
+1667296052773	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sefim\\AppData\\Local\\Temp\\rust_mozprofileNykRgW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57956/devtools/browser/96da1959-45bd-4168-822d-c58bd49b5bb5
+1667296057366	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1667296059028	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1667296060018	Marionette	INFO	Stopped listening on port 57965
+1667296060745	geckodriver	INFO	Listening on 127.0.0.1:58037
+1667296063765	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58038" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sefim\\AppData\\Local\\Temp\\rust_mozprofileNJDazI"
+1667296064079	Marionette	INFO	Marionette enabled
+1667296064083	Marionette	INFO	Listening on port 58047
+Read port: 58047
+WebDriver BiDi listening on ws://127.0.0.1:58038
+1667296064184	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sefim\\AppData\\Local\\Temp\\rust_mozprofileNJDazI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58038/devtools/browser/78802dcf-383c-4876-a049-e5823640ce9d
+1667296068869	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1667296070489	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1667296071462	Marionette	INFO	Stopped listening on port 58047
+1667296080207	geckodriver	INFO	Listening on 127.0.0.1:58122
+1667296083292	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58123" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sefim\\AppData\\Local\\Temp\\rust_mozprofileuAMI1A"
+1667296083625	Marionette	INFO	Marionette enabled
+1667296083629	Marionette	INFO	Listening on port 58132
+WebDriver BiDi listening on ws://127.0.0.1:58123
+Read port: 58132
+1667296084185	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sefim\\AppData\\Local\\Temp\\rust_mozprofileuAMI1A\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58123/devtools/browser/fbdcf00f-908b-4c80-8699-1a71a5aabd60
+1667296087995	Marionette	INFO	Stopped listening on port 58132
+1667296088667	geckodriver	INFO	Listening on 127.0.0.1:58171
+1667296091700	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58172" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sefim\\AppData\\Local\\Temp\\rust_mozprofile83IySH"
+1667296092021	Marionette	INFO	Marionette enabled
+1667296092026	Marionette	INFO	Listening on port 58181
+WebDriver BiDi listening on ws://127.0.0.1:58172
+Read port: 58181
+1667296092284	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sefim\\AppData\\Local\\Temp\\rust_mozprofile83IySH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58172/devtools/browser/04314de2-fab6-4061-b537-0ed29036605b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.passport.yandex.ru."
+1667296096653	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1667296096895	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1667296097991	Marionette	INFO	Stopped listening on port 58181

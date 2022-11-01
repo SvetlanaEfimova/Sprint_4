@@ -3,7 +3,7 @@ from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.wait import WebDriverWait
 
 
-class ClickOnTheScooterLogo:
+class MainPageLogoScooter:
     _scooter_logo = [By.XPATH, "//*/img[@alt = 'Scooter']"]
 
     def __init__(self, driver):
@@ -16,7 +16,7 @@ class ClickOnTheScooterLogo:
         WebDriverWait(self.driver, 3).until(ec.element_to_be_clickable(self._scooter_logo))
 
 
-class ClickOnTheYandexLogo:
+class MainPageLogoYandex:
     _yandex_logo = [By.XPATH, "//*/img[@alt = 'Yandex']"]
     _find_button = [By.XPATH, "*//button[text() = 'Найти']"]
 
